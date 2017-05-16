@@ -65,7 +65,7 @@
         <input type="email" class="form-control" id="email" name="email">
       </div>
      <div class="form-group">
-      <label for="tyoe">Select Account type:</label>
+      <label for="tyoe">Account type</label>
       <select class="form-control selectpicker" id="type" name="type" >
         <option value="a">Admin</option>
         <option value="c">Customer</option>
@@ -74,10 +74,15 @@
         <option value="mt">Marketing Trainee (MT)</option>
       </select>
      </div>
+     <div class="form-group">
+        <label for="image">Profile image</label>
+        <input type="file" class="form-control-file" id="image" aria-describedby="fileHelp"  accept="image/*">
+        <small id="fileHelp" class="form-text text-muted">the file should be an image ex: .jpg or .png and doesn't exceed 1 MB. the pr</small>
+      </div>
 
       
-      <input value="Register" name="submit" type="submit" class="btn btn-default" style="margin-right: 10px">
-      <span>already have an account? <a href="/blog/login">Login</a></span>
+      <input value="Register" name="submit" type="submit" class="btn btn-primary" style="margin-right: 10px">
+      <span>already have an account? <a href="login.html">Login</a></span>
     </form>
   </div>
 </div>
