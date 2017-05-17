@@ -30,3 +30,17 @@ display: block;
 line-height: 1.428571429;
 color: #999;
 }
+
+.btn-add{
+    padding-bottom: 2px;
+}
+
+.btn-modify{
+    padding: 10px 1px 1px 10px;
+    border-radius: 20px;
+}
+
+.navbar-customer{
+    background-color: #000;
+    color: #fff;
+}
