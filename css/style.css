@@ -44,3 +44,7 @@ color: #999;
     background-color: #000;
     color: #fff;
 }
+
+.delete-form{
+    display: inline;
+}
